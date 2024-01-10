@@ -72,7 +72,7 @@ return(
       <input id='input-id' type='text' onChange={handlesearchState}  placeholder='Serach State' />
      
       { states?.length === 0 ? (
-                <p>No Data Found!</p>
+                <p style={{color:'red'}}>No Data Found!</p>
             ) : (
       <table className='myTable' style={{width:'30%', marginTop:'10%'}} >
         <thead >
